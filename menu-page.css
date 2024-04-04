@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+  }
+  
+  /*SPEACIAL DEAL ANNOUNCEMENT*/
+  
+  main {
+    background-color: #FBA282;
+  }
+  /* VERTICAL NAV BAR */
+  .sidebar {
+    background-color: #fbdfd8f1;
+    min-width: 90px;
+  }
+  .bakery-logo {
+    max-width: 200px;
+    width: 90%;
+    text-align: center;
+    display: block;
+  }
+  
+  .sidebar-button {
+    min-width: 80px;
+    width: 60%;
+    padding-block: 0.5rem;
+    margin-block: 20px;
+    background-color: #ffdcab;
+    color: #ffffff;
+    font-size: 1.5em;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .sidebar-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .sidebar-button:active {
+    box-shadow: 0 5px #666;
+  }
+  .sidebar-active {
+    background-color: #ffbe63;
+  }
+
+  .main-content {
+    margin-top: 30px;
+  }
+
+  /* DONUT CARD */ 
+  .card-body{
+    border-radius: 10px;
+  }
+
+  .card-title{
+    background-color: #FFDCAB;
+    border-radius: 10px;
+  }
+
+  .donut-card{
+    background-image: url(donut-card.jpeg);
+    padding-right: 40%;
+    padding-left: 40%;
+  }
+
+  .order-donut-btn{
+    background-color: #FFDCAB;
+    color: black;
+    border:0px;
+  }
+
+  .order-donut-btn:hover{
+    background-color: #ffbe63; 
+    border-color: none;
+    transform: scale(1.2);
+    box-shadow: 0 5px #FFDCAB;
+  }
